@@ -31,7 +31,7 @@ invoke --list
 If you plan to use the default API URL for your app, be sure to enable CORS in your api like so:
 
 ```
-@app.route('/', **cors=True**)
+@app.route('/', cors=True)
 ```
 
 ## Built with
